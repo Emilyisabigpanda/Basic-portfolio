@@ -1,4 +1,4 @@
-/* this is a cahnge */
+
 
 h2 {
     text-align: Left;
@@ -35,12 +35,14 @@ body {background-color:#bbbb
       font-size: 80%;
       text-align: center;}
 
-section {margin:0;
+header {margin:0;
         background-color: #4aaaa5;
         font-family:'Georgia', Times, Times New Roman, serif;
-        font-weight: 300
+        font-weight: 300;
+        overflow: auto;
+       
 }
-h1 {float left;}
+h1 {float: left;}
 
 
 ul{list-style-type: none;
