@@ -34,19 +34,38 @@ body {background-color:#bbbb
       padding: 20px 0px;
       font-size: 80%;
       text-align: center;}
+header h1 {
+    float: left;
+    padding-left: 1em;
+}
 
 header {margin:0;
         background-color: #4aaaa5;
         font-family:'Georgia', Times, Times New Roman, serif;
-        font-weight: 300;
+       
         overflow: auto;
+        display: block
        
 }
-h1 {float: left;}
-
+h1 {
+    
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;}
 
 ul{list-style-type: none;
     padding:0;
+    display: block;
+    
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
     
      }
 
@@ -57,3 +76,10 @@ nav {float:right}
 li {display: inline;
     margin-left: 10px;
 }
+
+#make {
+    background-color: #4aaaa5；
+    }
+#food {background-color: #4aaaa5}
+#animal {background-color: #4aaaa5}
+#travel {background-color: #4aaaa5}
