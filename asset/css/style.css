@@ -20,7 +20,8 @@ div,form {background-color: aliceblue;
     margin:auto;
     height: 300px;
     width: 1000px;
-    border: solid;
+    border:solid;
+  
     overflow: scroll
 }
 
@@ -34,20 +35,22 @@ body {background-color:#bbbb
       padding: 20px 0px;
       font-size: 80%;
       text-align: center;}
-header h1 {
+header h1 { 
+   
     float: left;
     padding-left: 1em;
+   
 }
 
 header {margin:0;
-        background-color: #4aaaa5;
+        background-color: white;
         font-family:'Georgia', Times, Times New Roman, serif;
        
         overflow: auto;
         display: block
        
 }
-h1 {
+h1 {background-color: #4aaaa5;
     
     display: block;
     font-size: 2em;
@@ -75,11 +78,13 @@ nav {float:right}
 
 li {display: inline;
     margin-left: 10px;
+    border-right-style: solid;
 }
 
-#make {
-    background-color: #4aaaa5；
-    }
-#food {background-color: #4aaaa5}
-#animal {background-color: #4aaaa5}
-#travel {background-color: #4aaaa5}
+#a {width: 33%;
+    float: left;}
+#b {width: 33%;
+    float: left;}
+#c {width: 33%;
+    clear: both;}
+#d {width: 33%;}
